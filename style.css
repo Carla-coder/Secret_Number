@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do vídeo de fundo */
+#matrixVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cobrir toda a tela */
+    z-index: -1; /* Colocar atrás do conteúdo */
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    background-color: rgb(255,198,0); 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    color: #000; 
+    position: relative; 
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #000;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #000;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border:none;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #000; 
+    font: bold 1.0rem serif;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #000;
+    color: rgb(255,198,0);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+#message {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #d9534f;
+}
+
+#attempts {
+    font-weight: bold;
+    color: #000; 
+}
+
+/* Estilo para o botão de Começar Novamente */
+#restartButton {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #000; 
+    color: rgb(255,198,0); 
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+#restartButton:hover {
+    background-color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    input[type="number"], button {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}

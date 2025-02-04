@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o Número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Vídeo de fundo -->
+    <video autoplay muted loop id="matrixVideo">
+        <source src="video/matrix-bg4.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <h1>Adivinhe o Número</h1>
+        <p>Estou pensando em um número entre 1 e 50. Tente adivinhar!</p>
+        <input type="number" id="guessInput" placeholder="Digite seu palpite">
+        <button id="guessButton">Enviar Palpite</button>
+        <p id="message"></p>
+        <p>Tentativas restantes: <span id="attempts">10</span></p>
+        <button id="restartButton" style="display: none;">Começar Novamente</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
