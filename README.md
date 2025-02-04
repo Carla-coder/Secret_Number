@@ -13,6 +13,8 @@ Um jogo web simples e divertido, onde o usuário tenta adivinhar um número gera
 
 ### Tela inicial:
 
+![tela inicial](https://github.com/user-attachments/assets/20227036-4c05-4820-a5f1-3b02c732929c)
+
 A tela inicial exibe:
 
 - Um campo para digitar o palpite do número.
