@@ -11,8 +11,10 @@ Um jogo web simples e divertido, onde o usuário tenta adivinhar um número gera
 - Após cada palpite, o sistema informa se o número é maior ou menor que o palpite.
 - O jogador pode reiniciar o jogo ao final de uma partida, seja por vencer ou esgotar as tentativas.
 
-## 🎥 Demonstração do Projeto  
-Clique aqui para assistir ao vídeo(https://www.linkedin.com/posts/carlamozena_javascript-desenvolvimentoweb-css-activity-7295860450087346176-yeXY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEHxan4Bo1D069-32Gn9Vi-6mKH89k0QY2Y)
+## 🎥 Demonstração do Projeto
+
+Clique aqui para assistir ao vídeo
+![secretnumber-ezgif com-optimize](https://github.com/user-attachments/assets/ff7641d1-2cab-4653-8bc3-34ea0bc4409f)
 
 ### Tela inicial:
 
