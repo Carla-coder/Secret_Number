@@ -11,6 +11,9 @@ Um jogo web simples e divertido, onde o usuário tenta adivinhar um número gera
 - Após cada palpite, o sistema informa se o número é maior ou menor que o palpite.
 - O jogador pode reiniciar o jogo ao final de uma partida, seja por vencer ou esgotar as tentativas.
 
+## 🎥 Demonstração do Projeto  
+[Clique aqui para assistir ao vídeo](C:\Users\cmart\Pictures\arquivos carla\Senai 2023-2024\projetos prontos\Secret_Number\video)
+
 ### Tela inicial:
 
 ![tela inicial](https://github.com/user-attachments/assets/20227036-4c05-4820-a5f1-3b02c732929c)
